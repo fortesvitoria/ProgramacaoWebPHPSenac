@@ -92,6 +92,22 @@ echo $pula;
 
 $lanches[] = "Pao de queijo";
 print_r($lanches);
+echo $pula;
+
+// acrescentando valores a uma variável
+$nomeCompleto = "Lucas ";
+echo $nomeCompleto;
+echo $pula;
+$nomeCompleto = "Oliveira "; #Troca o valor da variável
+echo $nomeCompleto;
+echo $pula;
+$nomeCompleto .= "Manskoviski ";
+echo $nomeCompleto;
+echo $pula;
+
+//constante no php - uma variavel que nao varia
+const NOME = "Paola";
+echo NOME;
 
 
 ?>
