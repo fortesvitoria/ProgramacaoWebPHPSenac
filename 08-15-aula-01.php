@@ -17,7 +17,7 @@ echo $pula;
 echo "O aluno " . $aluno . " tem " . $altura . " de altura.";
 echo $pula;
 
-#numeros - mesmo declarado como string o numero é calculado quando sozinho entre aspas
+//numeros - mesmo declarado como string o numero é calculado quando sozinho entre aspas
 $x = 10;
 $y = 2.5;
 $z = "1";
@@ -30,16 +30,68 @@ echo $pula;
 echo (3+3+3)/3;
 echo $pula;
 
-#arrays - 
+//arrays - 
 $lanches = array("Xis", "Pizza", "Pastel", "Hamburguer", "Coxinha"); #criando array atraves da função array();
 print_r($lanches); #print_r é utilizado para entender a estrutura do array, nao para ser visualizado pelo usuario
 echo $pula;
 echo $lanches[2];
 echo $pula;
 
-#a partir do php5.4 -  mais atual que a com método
+//a partir do php5.4 -  mais atual que a com método
 $frutas = ['Limão', 'Acerola', 'Morango', 'Maracuja', 4];
 print_r($frutas);
+
+//array associativo
+$dados = [
+    "aluno" => "Cristiano",
+    "idade" => 27,
+    "cidade" => "Poa",
+    "curso" => "ADS"
+
+];
+echo $pula;
+print_r($dados);
+echo $pula;
+echo $dados["cidade"];
+echo $pula;
+echo $dados;
+echo $pula;
+
+//array multidimensional
+$alunos = array(
+    [
+        "nome" => "Vitoria",
+        "curso" => ["ADS","PNM"],
+        "idade" => 34
+    ],
+    [
+        "nome" => "Eduardo",
+        "curso" => "Biologia",
+        "idade" => 41
+    ],
+    [
+        "nome" => "Michelle",
+        "curso" => "Biologia",
+        "idade" => 35
+    ],
+
+);
+
+print_r($alunos);
+echo $pula;
+echo $alunos[0]['curso'][1];
+echo $pula;
+echo $alunos[2]['nome'];
+echo $pula;
+
+//acrescenta valores ao array
+$dados['semestre'] = 2;
+print_r($dados);
+echo $pula;
+
+
+$lanches[] = "Pao de queijo";
+print_r($lanches);
 
 
 ?>
