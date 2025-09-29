@@ -27,8 +27,9 @@ Se não encontrar mostre uma mensagem avisando o usuário -->
                     $valor = $_SESSION['valorCurso'];
                     echo "<p>Curso selecionado: <span class='destaque'> $curso </span></p>";
                     echo "<p>Valor do curso:<span class='destaque'> R$ $valor,00</span></p>";
-                } else {
-                    echo "<p>Nenhum curso foi selecionado.</p>";
+                } elseif (isset($_SESSION['erro'])) {
+                    $erro = $_SESSION['erro'];
+                    echo "<p class='erro'>$erro</p>";
                 }
             ?>
         </div>

@@ -1,13 +1,3 @@
-<!-- 4 - Atividade | Busca com Formulário
-Crie um arquivo: formulario.php
-Formulário HTML para o usuário digitar uma busca
-Crie um arquivo chamado resultado.php
-Crie um vínculo entre os arquivos
-Lógica para mostrar se foi encontrado o valor procurado em formulario.php
-Crie um array com os seguintes valores: [ PHP, HTML, CSS, JavaScript, Jquery, Python, SQL, Bootstrap, Java, C++, Fluter ]
-Se o usuário encontrar um valor acima, mostre a seguinte mensagem "Temos o curso para a sua busca $valorda busca"
-Se não encontrar mostre uma mensagem avisando o usuário -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
