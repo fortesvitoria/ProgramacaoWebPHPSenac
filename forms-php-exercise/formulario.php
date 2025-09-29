@@ -17,16 +17,17 @@ Se não encontrar mostre uma mensagem avisando o usuário -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header></header>
     <main>
         <h1>Cursos TI</h1>
         <p>Exercício formulário com PHP</p>
-        <form action="logica.php" method="post">
-        <!-- Text Input -->
-        <label for="fullname">Digite seu curso</label>
-        <input type="text" id="fullname" name="fullname" required>
+        <form action="function.php" method="post">
+        
+        <label for="curso">Digite seu curso</label>
+        <input type="text" id="curso" name="curso" required>
 
-        <input type="submit" name="" class="btn">
+        <input type="submit" name="enviar" class="btn">
     </main>
-    
+    <footer><p>© 2025 Vitória Fortes</p></footer>
 </body>
 </html>

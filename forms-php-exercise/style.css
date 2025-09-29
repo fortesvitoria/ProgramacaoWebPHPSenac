@@ -20,7 +20,8 @@ body {
     background: var(--gradiente-azul);
     font-family: var(--fonte-corpo);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
     color: var(--off-white);
@@ -64,12 +65,22 @@ input {
     cursor: pointer;
     color: var(--off-white);
     background-color: var(--preto);
-
-    
 }
 
 .btn:hover {
 box-shadow: var(--sombra) 2px 2px 15px;
-
 }
 
+.resultado {
+    background: var(--preto);
+    border-radius: 20px;
+    padding: 25px 20px;
+}
+
+span {
+    font-weight: 600;
+}
+
+footer {
+    font-size: 14px;
+}
