@@ -13,10 +13,11 @@
         <p>Exercício formulário com PHP</p>
         <form action="function.php" method="post">
         
-        <label for="curso">Digite seu curso</label>
-        <input type="text" id="curso" name="curso" required>
+            <label for="curso">Digite seu curso</label>
+            <input type="text" id="curso" name="curso" required>
 
-        <input type="submit" name="enviar" class="btn">
+            <input type="submit" name="enviar" class="btn">
+        </form>
     </main>
     <footer><p>© 2025 Vitória Fortes</p></footer>
 </body>
