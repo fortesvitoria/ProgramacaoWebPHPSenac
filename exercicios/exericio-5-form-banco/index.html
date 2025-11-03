@@ -1,0 +1,99 @@
+<!-- Crie um Banco de Dados com a tabela CLIENTES.
+
+Crie uma função para inserir os dados no banco, via formulário PHP.
+
+Com os seguintes dados:
+Nome, Sobrenome, e-mail, senha, repetia a senha, Telefone, endereço, Número, bairro, cidade, UF.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form action="" method="post">
+            <h1>Cadastro</h1>
+
+
+            <div class="container-data">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="container-data">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+
+            <div class="container-data">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+
+                        <div class="container-data">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone">
+            </div>
+
+            <div class="container-group">
+
+            <div class="container-data">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="container-data">
+                <label for="repitaSenha">Repita sua senha</label>
+                <input type="password" name="repitaSenha" id="repitaSenha" placeholder="Digite sua senha novamente">
+            </div>
+
+            <div class="container-data">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" name="logradouro" id="logradouro" placeholder="Digite seu logradouro">
+            </div>
+
+            <div class="container-data">
+                <label for="numero">Numero</label>
+                <input type="text" name="numero" id="numero" placeholder="Digite o numero do endereço">
+            </div>
+
+            <div class="container-data">
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" id="complemento" placeholder="Digite seu complemento">
+            </div>
+
+            <div class="container-data">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro" placeholder="Digite seu bairro">
+            </div>
+
+            <div class="container-data">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite seu cidade">
+            </div>
+
+            <div class="container-data">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado" placeholder="Digite seu estado">
+            </div>
+
+            <div class="container-data">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" placeholder="Digite seu CEP">
+            </div>
+
+
+            </div>
+            <button>Enviar</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
