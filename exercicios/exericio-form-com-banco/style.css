@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --background: linear-gradient(90deg, rgba(55, 59, 68, 1) 0%, rgba(66, 134, 244, 1) 100%);
+    --fundo-diluido: #79acff81;
+    --white: #f1f1f1;
+    --blue: #3568bb;
+    --mint: #95fffa;
+
+
+    --font: "Zalando Sans SemiExpanded", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
+    font-family: var(--font);
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card_principal {
+    background-color: var(--fundo-diluido);
+    border-radius: 5px;
+    padding: 30px 50px;
+    color: var(--white);
+    width: 70%;
+    max-width: 700px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2),
+        0 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.container-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container-data {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px
+}
+
+input,
+select {
+    background: none;
+    border: none;
+    border-bottom: solid 2px var(--white);
+    padding: 0 5px 5px 0;
+    margin: 4px 0 12px 0;
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+.input-50 {
+    width: 49%;
+}
+
+
+select {
+    background: #5a82c2a9;
+}
+
+
+
+input:focus {
+    outline: none;
+    border-bottom: solid 2px var(--mint);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: var(--white);
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2),
+        0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin-left: 10px;
+    border-radius: 100%;
+}
+
+footer img:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sucesso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+    align-items: start;
+}
+
+.btn-250 {
+    width: 250px;
+}

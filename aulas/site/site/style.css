@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+#topo{
+	text-align: center;
+	background: #ddd;
+	padding: 20px;
+}
+#menu{
+	background: #333;
+	border-top: solid 3px #58146f;
+	border-bottom: solid 3px #58146f;
+}
+#menu ul{
+	text-align: center;
+	list-style: none;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0 20px;
+}
+#banner{
+	text-align: center;
+	padding: 40px;
+	background: #58146f;
+}
+main{
+	width: 80%;
+	margin: 0 auto;
+	min-height: 400px;
+}
+footer{
+	text-align: center;
+	background: #58146f;
+	color: #fff;
+	padding: 20px;
+}
