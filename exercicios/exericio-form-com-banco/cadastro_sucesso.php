@@ -40,7 +40,7 @@ session_start();
     </main>
 
     <footer>
-        <p>© 2025 Vitória Fortes</p><a href=""><img src="github.png" alt="icone github com link do projeto"></a>
+        <p>© 2025 Vitória Fortes</p><a href="https://github.com/fortesvitoria/ProgramacaoWebPHPSenac/tree/main/exercicios/exericio-form-com-banco"><img src="github.png" alt="icone github com link do projeto"></a>
     </footer>
 </body>
 
