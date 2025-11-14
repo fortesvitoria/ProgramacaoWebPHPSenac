@@ -18,7 +18,7 @@
 <label for="arquivo">Faça o upload de seus arquivos:</label>
                 <div class="itens-upload">
                     
-                <input type="file" name="arquivo" id="arquivo" required>
+                <input type="file" name="arquivo[]" id="arquivo" required multiple>
 
                 <button name="enviar">Enviar Arquivo</button>
             </div>
